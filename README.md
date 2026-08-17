@@ -666,48 +666,7 @@ main
  └── release/*
 ```
 
-### Branch Purpose
 
-| Branch         | Purpose                        |
-| -------------- | ------------------------------ |
-| `main`         | Stable project version         |
-| `develop`      | Active development             |
-| `feature/*`    | New functionality              |
-| `fix/*`        | Bug fixes                      |
-| `experiment/*` | Research and experimental work |
-| `release/*`    | Release preparation            |
-
-This structure can be adopted when the project begins receiving multiple contributions.
-
----
-
-## Versioning
-
-The project can follow Semantic Versioning:
-
-```text
-MAJOR.MINOR.PATCH
-```
-
-For example:
-
-```text
-v1.0.0
-v1.1.0
-v1.1.1
-```
-
-Version tags should be created when stable project milestones are reached.
-
----
-
-## License
-
-A project license should be added once the licensing terms have been finalized.
-
-If the project is intended to be open source, a license such as MIT, Apache-2.0, or another appropriate license should be selected and added as `LICENSE`.
-
----
 
 ## Acknowledgements
 
@@ -743,10 +702,3 @@ https://github.com/sanjay8906/RL-Based_Autonomous_Intersection_Navigation_ADAS
 * Issues: https://github.com/sanjay8906/RL-Based_Autonomous_Intersection_Navigation_ADAS/issues
 * Pull Requests: https://github.com/sanjay8906/RL-Based_Autonomous_Intersection_Navigation_ADAS/pulls
 * Contributors: https://github.com/sanjay8906/RL-Based_Autonomous_Intersection_Navigation_ADAS/graphs/contributors
-
----
-
-<p align="center">
-  <strong>RL-Based Autonomous Intersection Navigation ADAS</strong><br>
-  Reinforcement Learning for Autonomous Driving Research
-</p>
