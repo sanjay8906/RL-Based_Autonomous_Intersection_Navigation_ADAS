@@ -1,4 +1,5 @@
 from adas_sim.metadrive.adapter import MetaDriveSimulator
+from adas_sim.sensors.lidar import LidarSensor
 
 
 def main():
@@ -8,6 +9,7 @@ def main():
         manual=False
     )
 
+    lidar = LidarSensor()
     observation, info = simulator.reset()
 
     while True:
@@ -18,10 +20,8 @@ def main():
 
         if terminated or truncated:
             observation, info = simulator.reset()
-            from adas_sim.sensors.lidar import LidarSensor
-            lidar = LidarSensor()
-        lidar.process(observation)
 
+        lidar.process(observation)
 
 
 if __name__ == "__main__":
